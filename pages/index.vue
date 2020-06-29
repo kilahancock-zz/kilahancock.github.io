@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <Header/>
-    <Navigation/>
   </div>
 </template>
 

@@ -1,16 +1,17 @@
 <template>
-    <div class="ex">
+    <div>
         <Header/>
-        <Navigation/>
-        <h2 id="job">Software Engineering Intern | Red Ventures | Summer 2020</h2>
-        <h4>- Front End Web Development</h4>
-        <p id="details">Javascript, Vue.js, Nuxt.js, React.js</p>
-        <br>
-        <h2 id="job">Software Engineering Intern | Daylight Data | Jan 2019 - Jan 2020</h2>
-        <h4>- Front End Web Development</h4>
-        <p id="details">Javascript, Vue.js</p>
-        <h4>- Back End Web Development</h4>
-        <p id="details">Golang, PSQL</p>
+        <div class="ex">
+            <h2 id="job">Software Engineering Intern | Red Ventures | Summer 2020</h2>
+            <h4>- Front End Web Development</h4>
+            <p id="details">Javascript, Vue.js, Nuxt.js, React.js</p>
+            <br>
+            <h2 id="job">Software Engineering Intern | Daylight Data | Jan 2019 - Jan 2020</h2>
+            <h4>- Front End Web Development</h4>
+            <p id="details">Javascript, Vue.js</p>
+            <h4>- Back End Web Development</h4>
+            <p id="details">Golang, PSQL</p>
+        </div>
     </div>
 </template>
 

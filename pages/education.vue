@@ -1,7 +1,6 @@
 <template>
     <div>
         <Header/>
-        <Navigation/>
         <div class="ed">
             <h2 id="school">The University of North Carolina at Chapel Hill | Class of 2021</h2>
             <h4>- Computer Science B.S.</h4>
