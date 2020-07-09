@@ -1,8 +1,32 @@
 {
+  "Education": {
+    "description": "Auto imported from components/Education.vue"
+  },
+  "LazyEducation": {
+    "description": "Auto imported from components/Education.vue"
+  },
+  "Experience": {
+    "description": "Auto imported from components/Experience.vue"
+  },
+  "LazyExperience": {
+    "description": "Auto imported from components/Experience.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/Footer.vue"
+  },
   "Header": {
     "description": "Auto imported from components/Header.vue"
   },
   "LazyHeader": {
     "description": "Auto imported from components/Header.vue"
+  },
+  "Service": {
+    "description": "Auto imported from components/Service.vue"
+  },
+  "LazyService": {
+    "description": "Auto imported from components/Service.vue"
   }
 }
