@@ -8,7 +8,7 @@
         <p>Working with Vue.js and Nuxt.js frameworks to contribute to websites<br>
           for partners in the TeleCom vertical.
         </p>
-        <br><br><br>
+        <br><br><br id="exp">
         <h1>Daylight Data &#183; Chapel Hill, NC Jan &#183; '19 - Jan '20</h1>
         <p><i>Provides contract software development services for early-stage ventures.</i></p><br>
         <h3>Front End Web Developer</h3>
@@ -23,11 +23,5 @@
     }
     h1 {
         margin-bottom: 1%;
-    }
-    .anchor {
-      display: block;
-      position: relative;
-      top: -250px;
-      visibility: hidden;
     }
 </style>
