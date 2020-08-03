@@ -1,0 +1,24 @@
+{
+  "name": "kilahancock",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve",
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.11.0",
+    "cors": "^2.8.5",
+    "nuxt": "^2.13.0",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "push-dir": "^0.4.1"
+  }
+}
