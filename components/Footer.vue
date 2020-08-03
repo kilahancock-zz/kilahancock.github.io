@@ -1,8 +1,8 @@
 <template>
     <div class="footer">
-        <span><a href='mailto: kilahancock@gmail.com'>Email</a></span> &#183; 
-        <span><a href='https://www.linkedin.com/in/kilahancock/' target='_blank'>LinkedIn</a></span> &#183;
-        <span><a href='https://github.com/kilahancock' target='_blank'>GitHub</a></span>
+        <a href="https://github.com/kilahancock"><img src="../assets/github.png" alt="github"/></a>
+        <a href="https://www.linkedin.com/in/kilahancock/"><img src="../assets/linkedin.png" alt="linkedin"/></a>
+        <a href="mailto: kilahancock@gmail.com"><img src="../assets/email.png" alt="email"/></a>
     </div>
 </template>
 
@@ -17,5 +17,11 @@
     }
     a:hover {
         font-weight: bold;
+    }
+    img {
+        width: 40px;
+        margin-left: 5px;
+        height: auto;
+        filter: brightness(0);
     }
 </style>
