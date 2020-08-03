@@ -5,6 +5,9 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   mode: 'spa',
+  router: {
+    base: '/'
+  },
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
