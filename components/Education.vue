@@ -1,4 +1,5 @@
 <template>
+    <div>
     <div id="ed">
         <h1>The University of North Carolina at Chapel Hill &#183; Class of 2021</h1>
         <h3>Computer Science B.S.</h3>
@@ -6,6 +7,7 @@
             Probability, Multivariable Calculus</i></p><br>
         <h3>Social and Economic Justice Minor</h3>
     </div>   
+    </div>
 </template>
 
 <style scoped>
