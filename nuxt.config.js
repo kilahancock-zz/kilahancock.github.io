@@ -6,7 +6,7 @@ export default {
   */
   mode: 'spa',
   router: {
-    base: '/'
+    base: '/',
   },
   /*
   ** Nuxt target

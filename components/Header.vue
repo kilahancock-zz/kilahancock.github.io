@@ -8,13 +8,13 @@
         </div>
         <div class="nav">
             <nuxt-link :to="{ path: '/', hash: '#ed'}">
-                <span id="ed" @click="sectionHandler('ed')" :class="{active: activeID == 'ed'}">Education</span> 
+                <span @click="sectionHandler('ed')" :class="{active: activeID == 'ed'}">Education</span> 
             </nuxt-link>
             <nuxt-link :to="{ path: '/', hash: '#ex'}">
-                <span id="ex" @click="sectionHandler('ex')" :class="{active: activeID == 'ex'}">Experience</span> 
+                <span @click="sectionHandler('ex')" :class="{active: activeID == 'ex'}">Experience</span> 
             </nuxt-link>
             <nuxt-link :to="{ path: '/', hash: '#sv'}">
-                <span id="sv" @click="sectionHandler('sv')" :class="{active: activeID == 'sv'}">Service</span> 
+                <span @click="sectionHandler('sv')" :class="{active: activeID == 'sv'}">Service</span> 
             </nuxt-link>
         </div>
     </div>

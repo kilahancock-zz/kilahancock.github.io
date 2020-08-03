@@ -1,4 +1,5 @@
 <template>
+    <div>
     <div id="ex">
         <h1>Red Ventures &#183; Charlotte, NC &#183; Summer 2020</h1>
         <p><i>A portfolio of digital companies that brings consumers and
@@ -13,6 +14,7 @@
         <h3>Front End Web Developer</h3>
         <p>Javascript, Vue.js</p>
     </div>
+    </div>
 </template>
 
 <style scoped>
@@ -21,5 +23,11 @@
     }
     h1 {
         margin-bottom: 1%;
+    }
+    .anchor {
+      display: block;
+      position: relative;
+      top: -250px;
+      visibility: hidden;
     }
 </style>

@@ -2,11 +2,11 @@
   <div class="container">
     <Header class="head"/>
     <div class="content">
-      <Education />
+      <Education id="ed"/>
       <hr class="secDivider" width="45%">
-      <Experience />
+      <Experience id="ex"/>
       <hr class="secDivider" width="50%">
-      <Service />
+      <Service id="sv"/>
       <hr class="secDivider" width="55%">
     </div>
     <Footer/>

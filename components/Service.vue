@@ -1,4 +1,5 @@
 <template>
+    <div>
     <div id="sv">
         <h1>TABLE &#183; Carrboro, NC &#183; Oct '17 - Dec '19</h1>
         <p><i>Providing emergency food aid to children in the Chapel Hill-Carrboro City
@@ -10,7 +11,8 @@
         <p>Visiting elementary and middle schools to teach a lesson on nutrition<br> and provide
             a healthy snack for students to take home.
         </p>
-    </div>   
+    </div>  
+    </div> 
 </template>
 
 <style scoped>
@@ -19,5 +21,11 @@
     }
     h1 {
         margin-bottom: 1%;
+    }
+    .anchor {
+      display: block;
+      position: relative;
+      top: -250px;
+      visibility: hidden;
     }
 </style>
