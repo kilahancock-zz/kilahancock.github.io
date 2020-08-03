@@ -7,13 +7,13 @@
             <hr>
         </div>
         <div class="nav">
-            <nuxt-link :to="{ path: '/', hash: '#ed'}">
+            <nuxt-link :to="{ path: '/'}">
                 <span @click="sectionHandler('ed')" :class="{active: activeID == 'ed'}">Education</span> 
             </nuxt-link>
-            <nuxt-link :to="{ path: '/', hash: '#ex'}">
+            <nuxt-link :to="{ path: '/', hash: '#ed'}">
                 <span @click="sectionHandler('ex')" :class="{active: activeID == 'ex'}">Experience</span> 
             </nuxt-link>
-            <nuxt-link :to="{ path: '/', hash: '#sv'}">
+            <nuxt-link :to="{ path: '/', hash: '#exp'}">
                 <span @click="sectionHandler('sv')" :class="{active: activeID == 'sv'}">Service</span> 
             </nuxt-link>
         </div>

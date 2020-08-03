@@ -17,10 +17,4 @@
     h1 {
         margin-bottom: 2%;
     }
-    .anchor {
-      display: block;
-      position: relative;
-      top: -250px;
-      visibility: hidden;
-    }
 </style>

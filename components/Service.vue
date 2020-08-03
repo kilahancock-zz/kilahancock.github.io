@@ -22,10 +22,4 @@
     h1 {
         margin-bottom: 1%;
     }
-    .anchor {
-      display: block;
-      position: relative;
-      top: -250px;
-      visibility: hidden;
-    }
 </style>
